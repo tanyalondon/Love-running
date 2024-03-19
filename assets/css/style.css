@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap')
 
+li {
+    list-style: none;
+}
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding:0;
@@ -22,7 +25,12 @@ body {
 
 /*header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1 rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
@@ -32,9 +40,12 @@ h1 {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
-    /*Make main element take up any surplus apace to push footer down
+    /*Make main element take up any surplus apace to push footer down*/
 }
 
+li {
+    list-style: none;
+}
 /*footer*/
 footer {
     background-color: orange;
