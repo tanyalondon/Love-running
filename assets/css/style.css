@@ -1,15 +1,13 @@
 
+
 /* Google font import*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap')
 
-li {
-    list-style: none;
-}
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing:border-box;
 }
 
@@ -51,9 +49,20 @@ main {
     /*Make main element take up any surplus apace to push footer down*/
 }
 
-li {
-    list-style: none;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
+
+#menu >li {
+    margin-bottom: 1em;
+}
+
+.active  {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /*footer*/
 footer {
     background-color: orange;
