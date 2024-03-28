@@ -110,7 +110,11 @@ main {
     
 }
 
-
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
