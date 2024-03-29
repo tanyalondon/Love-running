@@ -203,7 +203,7 @@ main {
 /*signup section*/
 
 #signup {
-    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    background: url("assets\images\signup-image.webp") no-repeat center center/cover;
     position: relative;
     flex-grow: 1;
 
