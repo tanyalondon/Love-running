@@ -230,6 +230,11 @@ main {
     flex-grow: 1;
 }
 
+#signup-form >h2 {
+    color:#fafafa;
+    margin-bottom: 20px;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
